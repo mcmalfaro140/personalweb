@@ -1,0 +1,52 @@
+.back_img{
+    height: 100vh;
+    background-image: url('/images/table.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.landing_style{
+    color: white;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.404);
+    text-align: center;
+    >div{
+        font-size: 140%;
+        margin-top: 2%;
+    }
+    >div:nth-child(1){
+        margin-top: 15%;
+        border: 3px solid orange;
+        padding: 1% 5% 1% 5%;
+        display: inline-block;
+        >h1{
+            font-weight: 100;
+            font-size: 230%;
+            >span{
+                font-weight: bold;
+                font-size: 150%;
+                letter-spacing: 7px;
+            }
+        }
+    }
+    >div:nth-child(3){
+        >svg{
+            margin-top: 4%;
+            font-size: 250%;
+        }
+    }
+}
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ }
+
+.bounce_animation{
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

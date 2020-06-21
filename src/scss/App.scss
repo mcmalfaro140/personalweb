@@ -1,0 +1,12 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+@import './components_style/landing';
+@import './components_style//about';
+@import "./components_style//projects";
+@import "./components_style//Resume";
+@import "./components_style//help";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules//aos/dist/aos.css"
+// @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
