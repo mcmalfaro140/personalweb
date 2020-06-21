@@ -4,9 +4,9 @@
   "description": "Personal Website",
   "main": "misael.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3002",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3002"
   },
   "author": "Misael Corvera",
   "license": "ISC",
