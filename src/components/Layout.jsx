@@ -1,7 +1,8 @@
 // import Topbar from "../components/Topbar"
 import Head from "next/head";
-import AOS from 'aos'
-
+import AOS from 'aos';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 class Layout extends React.Component {
     constructor(props){
@@ -30,11 +31,11 @@ class Layout extends React.Component {
                 />
                 {/* <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
             </Head>
-            {/* <Topbar currentPointer={this.currentPointer}/> */}
+            <Navbar/>
             <div>
                 {this.props.children}
             </div>
-            {/* <Footer/> */}
+            <section id="Footer"><Footer /></section>
         </div>
         )
     }

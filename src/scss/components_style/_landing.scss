@@ -50,3 +50,22 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+@media (max-width: $ipad_pro){
+    .landing_style{
+        >div:nth-child(1){
+            margin-top: 45%;
+        }
+    }
+}
+@media (max-width: $phone){
+    .landing_style{
+        >div{
+            font-size: 100%;
+            margin-top: 5%;
+        }
+        >div:nth-child(1){
+            margin-top: 60%;
+        }
+    }
+}

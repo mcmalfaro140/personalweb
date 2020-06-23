@@ -2,11 +2,19 @@ body{
     padding: 0%;
     margin: 0%;
 }
+
+//Const
+$ipad_pro: 1024px;
+$tablet: 768px;
+$phone: 414px;
+
 @import './components_style/landing';
-@import './components_style//about';
-@import "./components_style//projects";
-@import "./components_style//resume";
-@import "./components_style//help";
+@import './components_style/about';
+@import "./components_style/projects";
+@import "./components_style/resume";
+@import "./components_style/help";
+@import "./components_style/navbar";
+@import "./components_style/footer";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../node_modules//aos/dist/aos.css"
 // @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";

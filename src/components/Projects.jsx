@@ -37,7 +37,7 @@ export default class Projects extends React.Component{
     }
     render(){
         const proj = this.state.projects.map((e, i) => {
-            let delay = i*300 ;
+            let delay = i*100 ;
             return(
                 <div className="proj" key={i} data-aos="fade-up" data-aos-delay={delay}>
                     <img src={e.img} alt={`project_image_${i}`}></img>

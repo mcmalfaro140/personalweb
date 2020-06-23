@@ -48,3 +48,49 @@
         }
     }
 }
+
+@media (max-width: $ipad_pro){
+    .about{
+        >div{
+            >div:nth-child(2){
+                width: 150%;
+                >img{
+                    object-fit: cover;
+                    height: 100%;
+                }
+            }
+        }
+        
+    }
+}
+
+@media (max-width: $tablet){
+    .about{
+        >div{
+            padding: 8% 10% 8% 0%;
+            >div:nth-child(2){
+                width: 170%;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: $phone){
+    .about{
+        >div{
+            padding: 25%  5% 25% 5%;
+            >div:nth-child(1){
+                >div{
+                    margin: 0%;
+                    text-align: center;
+                }
+
+            }
+            >div:nth-child(2){
+                display: none;
+            }
+        }
+        
+    }
+}

@@ -10,16 +10,52 @@
             border-left: 3px solid orange;
         }
         >img{
-            width: 100%;
+            width: 75%;
             border: 1px solid grey;
         }
         >a{
-            margin-top: 5%;
             border: 1px solid orange;
             background-color: orange;
+            display: block;
+            width: 20%;
+            margin: auto;
+            margin-top: 5%;
             &:hover{
                 border: 1px solid rgb(194, 127, 2);
                 background-color: rgb(194, 127, 2);
+            }
+        }
+    }
+}
+
+@media (max-width: $ipad_pro){
+    .resume{
+        >div{
+            >a{
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media (max-width: $tablet){
+    .resume{
+        >div{
+            >img{
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: $phone){
+    .resume{
+        >div{
+            >img{
+                width: 100%;
+            }
+            >a{
+                width: 70%;
             }
         }
     }
