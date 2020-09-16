@@ -12,6 +12,13 @@ export default class Projects extends React.Component{
                     img: "./images/dashboard.png"
                 },
                 {
+                    name: "V&M Content Management Dashboard",
+                    des: "Dashboard created to allow users to manage the content of their website. They can update items fields and images.",
+                    tec: "JavaSript, ReactJS, Redux, Firebase Authentication, Firebase Storage, Cloud Firestore, SASS, Bootstrap 4.",
+                    url: "https://dashboard.vmsteam.com",
+                    img: "./images/vmdashboard.png"
+                },
+                {
                     name: "V&M Website Solutions",
                     des: "Co-funder, dedigner and developer of a freelancing agency.",
                     tec: "JavaSript, ReactJS, NextJS, AWS SNS, AWS EC2, AWS Route 53, Bootstrap 4, Nginx.",
@@ -25,13 +32,13 @@ export default class Projects extends React.Component{
                     url: "https://premierpropertysecurityinc.com",
                     img: "./images/pps.png"
                 },
-                {
-                    name: "My Wash Android Application",
-                    des: "Android Application developed as part of a final class project. The App allows users to create profiles and book car wash thru the application.",
-                    tec: "Android Studio, Kotlin, Firebase",
-                    url: "https://github.com/mcmalfaro140/MyWashApp",
-                    img: "./images/carwash.png"
-                },
+                // {
+                //     name: "My Wash Android Application",
+                //     des: "Android Application developed as part of a final class project. The App allows users to create profiles and book car wash thru the application.",
+                //     tec: "Android Studio, Kotlin, Firebase",
+                //     url: "https://github.com/mcmalfaro140/MyWashApp",
+                //     img: "./images/carwash.png"
+                // },
             ]
         }
     }
