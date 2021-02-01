@@ -18,7 +18,7 @@ export default class Help extends React.Component{
                 },
                 {
                     name: "Mobile Applications",
-                    des: "Got any mobil app idea? Talk to me, we may become the next big think.",
+                    des: "Got any mobile app idea? Talk to me, we may become the next big think.",
                     img: "./images/mobile_icon.png",
                     alt: "mobile icon"
                 },
