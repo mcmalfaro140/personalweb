@@ -15,15 +15,29 @@ export default class Projects extends React.Component{
                     name: "V&M Website Solutions",
                     des: "Co-funder, dedigner and developer of a freelancing agency.",
                     tec: "JavaSript, ReactJS, NextJS, AWS SNS, AWS EC2, AWS Route 53, Bootstrap 4, Nginx.",
-                    url: "https://vmsteam.com",
+                    url: "https://www.vmsteam.com",
                     img: "./images/vms.png"
                 },
                 {
                     name: "Abram Imports Inc.",
                     des: "Design and development of an ecommerce website integrated with shopify API.",
                     tec: "JavaSript, ReactJS, AWS SNS, Bootstrap 4, Shopify API, Adobe XD, SASS.",
-                    url: "https://abramimports.com",
+                    url: "https://www.abramimports.com",
                     img: "./images/abramimports.png"
+                },
+                {
+                    name: "Natural Grill Inc.",
+                    des: "Design and development of a website for a organic restaurant to help customer identify items from the menu.",
+                    tec: "ReactJS, Styled-Components, NodeJS, Bootstrap 4, and Figma",
+                    url: "https://naturalgrill.vercel.app",
+                    img: "./images/natural.png"
+                },
+                {
+                    name: "Park and Save Inc.",
+                    des: "Design and development of business website for a parking company. Allowing customers to quickly get directions to different parking locations.",
+                    tec: "NextJS, SASS, Bootstrap 4, and Figma.",
+                    url: "https://parkandsave.vercel.app",
+                    img: "./images/park.png"
                 },
                 {
                     name: "Content Management System",
@@ -36,7 +50,7 @@ export default class Projects extends React.Component{
                     name: "Premier Property Security Inc",
                     des: "Website developed for a security company based in Los Angeles. I was part of the design and frontend team.",
                     tec: "JavaSript, ReactJS, NextJS, AWS SNS, AWS Route 53, Bootstrap 4.",
-                    url: "https://premierpropertysecurityinc.com",
+                    url: "https://ppsecurity.vercel.app",
                     img: "./images/pps.png"
                 },
                 {
